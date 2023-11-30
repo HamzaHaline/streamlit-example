@@ -4,5 +4,4 @@ streamlit
 matplotlib
 plotly
 seaborn
-matplotlib==3.4.3
 
