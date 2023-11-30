@@ -28,19 +28,6 @@ We have 1800 individuals, which gives us a good data set to study.
         """
         )
 st.markdown("We read the documentation and thus, we were able to rename the columns and modify them to make their content readable by everybody.")
-if st.checkbox("Show cleaned data"):
-    st.subheader('Cleaned data used')
-    st.write(pers_data)
-    st.markdown("Ther was no null data, so we had nothing to remove. However, we managed to remove all of the users that tried to trick the study by saying they were Semerons consumers, whereas Semeron is a fake drug. In total, they were barely ten.")
-
-
-st.title("Heat map of the data")
-st.markdown("We plot this heat map so we can visualize the correlation between data, it can give us an idea of which kind of graphics we could make.")
-st.pyplot(heat_map_data(data))
-#################################################################
-st.title("General analysis of the surveyed people : ")
-st.markdown("So let's take a look at the general information we talked about just before.")
-####################################################################
 
 
 
